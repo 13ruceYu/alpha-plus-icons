@@ -1,0 +1,31 @@
+{
+  "editor.formatOnSave": true,
+  "[xml]": {
+    "editor.formatOnSave": false
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "html",
+    "vue",
+    "json",
+    "json5",
+    "jsonc",
+    "yaml"
+  ],
+  "eslint.probe": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "html",
+    "vue",
+    "json",
+    "json5",
+    "jsonc",
+    "yaml"
+  ],
+  "typescript.tsdk": "node_modules/typescript/lib"
+}

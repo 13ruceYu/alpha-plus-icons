@@ -1,0 +1,23 @@
+{
+  "name": "@bruceyo/icons-svg",
+  "version": "0.0.2",
+  "description": "SVG icon for Alpha Plus Icons collection.",
+  "keywords": [
+    "icon",
+    "svg"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "directory": "packages/svg"
+  },
+  "files": [
+    "*.svg"
+  ],
+  "scripts": {
+    "optimize": "svgo -f . -o ."
+  },
+  "devDependencies": {
+    "svgo": "^2.8.0"
+  }
+}
